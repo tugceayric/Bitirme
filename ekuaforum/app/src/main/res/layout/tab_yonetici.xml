@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/txt_baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif"
+        android:text="YÖNETİCİ EKRANI"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cikis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:background="?android:attr/statusBarColor"
+        android:text="Çıkış Yap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_baslik"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TabHost
+            android:id="@+id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@color/colorPrimary" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/tab_stok"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_giris4"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/txt_baslik"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="Stok Durumu"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btn_giris5"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/btn_giris4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="Malzeme Ekle"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btn_giris6"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/btn_giris5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="Malzeme Çıkar/Düzenle"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab_calisan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_giris7"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/btn_giris5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="ÇalıŞan LİSTESİ"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btn_giris8"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/btn_giris4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="ÇALIŞAN EKLE"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btn_giris9"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/txt_baslik"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="13dp"
+                            android:background="?android:attr/statusBarColor"
+                            android:text="ÇALIŞAN ÇIKAR/DÜZENLE"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab_randevu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:id="@+id/listviewim"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+
+</RelativeLayout>

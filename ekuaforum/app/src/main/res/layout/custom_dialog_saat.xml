@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bir1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="09:00" />
+
+        <Button
+            android:id="@+id/iki2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="10:00" />
+
+        <Button
+            android:id="@+id/uc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="11:00" />
+
+        <Button
+            android:id="@+id/dort4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="12:00" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bes5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="13:00" />
+
+        <Button
+            android:id="@+id/alti6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="14:00" />
+
+        <Button
+            android:id="@+id/yedi7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="15:00" />
+
+        <Button
+            android:id="@+id/sekiz8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="16:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dokuz9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="17:00" />
+
+        <Button
+            android:id="@+id/on10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="18:00" />
+
+        <Button
+            android:id="@+id/onbir11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="19:00" />
+
+        <Button
+            android:id="@+id/oniki12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="?android:attr/statusBarColor"
+            android:text="20:00" />
+
+    </LinearLayout>
+
+    <EditText
+    android:id="@+id/saat"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:ems="10"
+    android:hint="Saat"
+    android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/tarih"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:hint="Tarih"
+        android:textSize="25sp" />
+
+</LinearLayout>
