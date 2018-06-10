@@ -1,0 +1,31 @@
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\obj\Debug\WebApiProject.csprojResolveAssemblyReference.cache
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\WebApiProject.dll.config
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\WebApiProject.dll
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\WebApiProject.pdb
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\Json.dll
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\Newtonsoft.Json.dll
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\Json.pdb
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\bin\Newtonsoft.Json.xml
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\obj\Debug\WebApiProject.dll
+c:\Users\tugba\Documents\Visual Studio 2013\Projects\WebApiProject\WebApiProject\obj\Debug\WebApiProject.pdb
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\WebApiProject.dll.config
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\WebApiProject.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\WebApiProject.pdb
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\Json.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\Newtonsoft.Json.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\Json.pdb
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\Newtonsoft.Json.xml
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\obj\Debug\WebApiProject.csproj.CoreCompileInputs.cache
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\obj\Debug\WebApiProject.csproj.CopyComplete
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\obj\Debug\WebApiProject.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\obj\Debug\WebApiProject.pdb
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\obj\Debug\WebApiProject.csprojAssemblyReference.cache
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Net.Http.Formatting.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Web.Http.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Web.Http.WebHost.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Net.Http.Formatting.xml
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Web.Http.xml
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\System.Web.Http.WebHost.xml
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\tr\System.Net.Http.Formatting.resources.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\tr\System.Web.Http.resources.dll
+C:\Users\Tugce Ayric\Desktop\WebApiProject\WebApiProject\bin\tr\System.Web.Http.WebHost.resources.dll
